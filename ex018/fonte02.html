@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Western';
+            src: url('Fontes/Western Bang Bang.otf') format('opentype'), url('Fontes/Western Bang Bang.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+               Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-asst (Apple Advanced Typography)
+               - svg
+            */   
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Western', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, Love</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde alias dolorum quidem dignissimos perferendis pariatur, nostrum quisquam tempore soluta, ipsum, sit in eos impedit deleniti amet quod magnam veritatis. Voluptas.</p>
+    <h2>SubTitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae minima omnis expedita ipsa temporibus itaque quaerat magnam quos vero, perferendis perspiciatis ex necessitatibus quisquam fugit quidem molestias nam provident!</p>
+</body>
+</html>
